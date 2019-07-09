@@ -1,4 +1,8 @@
 import unittest
+
+from scientific_calculator import ScientificCalculator
+
+r
 from calculator import Calculator
 # import Calculator
 
@@ -64,7 +68,7 @@ class test_Calculator(unittest.TestCase):
     # Power
 
     def test_2_to_the_3rd_power(self):
-        scientific_calculator = Calculator("scientific")
+        scientific_calculator = ScientificCalculator("CASSIO FX-350MS")
 
         first_number = 2
         second_number = 3
@@ -72,7 +76,7 @@ class test_Calculator(unittest.TestCase):
         self.assertEqual(8, scientific_calculator.power(first_number, second_number))
 
     def test_power_with_common_calculator(self):
-        common_calculator = Calculator("common")
+        common_calculator = Calculator("Classe ED-205")
 
         first_number = 3
         second_number = 3
