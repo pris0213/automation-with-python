@@ -22,7 +22,4 @@ class Calculator:
             return "Error! You can\'t divide a number by zero."
 
     def power(self, first_number, second_number):
-        if (self.type == "scientific"):
-            return math.pow(first_number, second_number)
-        else:
-            return "Error! This operation is not available."
+        return "Error! This operation is not available."
