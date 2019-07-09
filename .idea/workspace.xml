@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a54774dc-37e7-491d-8126-6b2b7b796609" name="Default Changelist" comment="" />
+    <list default="true" id="a54774dc-37e7-491d-8126-6b2b7b796609" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scientific_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/scientific_calculator.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_hello_world.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="255">
               <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -55,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scientific_calculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="210">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -94,29 +97,14 @@
         <entry key="$PROJECT_DIR$" value="scientific-calc" />
       </map>
     </option>
-    <favorite-branches>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="scientific-calc" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </favorite-branches>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/hello_world.py" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/ScientificCalculator.py" />
-        <option value="$PROJECT_DIR$/tests/ScientificCalculator.py" />
-        <option value="$PROJECT_DIR$/tests/test_calculator.py" />
         <option value="$PROJECT_DIR$/calculator.py" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/tests/test_calculator.py" />
         <option value="$PROJECT_DIR$/scientific_calculator.py" />
       </list>
     </option>
@@ -132,7 +120,22 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="automation-with-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automation-with-python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automation-with-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automation-with-python" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,7 +144,6 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/tests" />
     </key>
   </component>
@@ -202,11 +204,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_calculator.test_calculator.test_sum_of_2_plus_1" />
-        <item itemvalue="Python tests.Unittests for test_calculator.test_calculator" />
         <item itemvalue="Python tests.Unittests for test_calculator.test_Calculator" />
-        <item itemvalue="Python tests.Unittests for test_calculator.test_calculator.test_sum_of_2_plus_1" />
         <item itemvalue="Python tests.Unittests for test_calculator.test_calculator" />
+        <item itemvalue="Python tests.Unittests for test_calculator.test_calculator.test_sum_of_2_plus_1" />
       </list>
     </recent_temporary>
   </component>
@@ -279,19 +279,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scientific_calculator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/math_functions.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/hello_world.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -301,7 +288,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_hello_world.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="255">
           <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -335,8 +322,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scientific_calculator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="210">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
