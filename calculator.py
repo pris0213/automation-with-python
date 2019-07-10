@@ -1,6 +1,5 @@
 import math
 
-
 class Calculator:
 
     def __init__(self, type):
