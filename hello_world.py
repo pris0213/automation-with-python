@@ -1,4 +1,4 @@
-class hello_world:
+class HelloWorld:
 
 	def say(self):
 		print("Hello, World!")
