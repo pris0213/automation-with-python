@@ -1,69 +1,76 @@
 import unittest
 
 from scientific_calculator import ScientificCalculator
-
-r
 from calculator import Calculator
 # import Calculator
 
-class test_Calculator(unittest.TestCase):
+
+class TestCalculator(unittest.TestCase):
 
     # Sum
 
     def test_sum_of_2_plus_1(self):
         first_number = 2
         second_number = 1
+        calculator = Calculator("comum")
 
-        self.assertEqual(3, Calculator.sum(self, first_number, second_number))
+        self.assertEqual(3, calculator.sum(first_number, second_number))
 
     def test_sum_of_2_plus_negative_1(self):
         first_number = 2
         second_number = -1
+        calculator = Calculator("comum")
 
-        self.assertEqual(1, Calculator.sum(self, first_number, second_number))
+        self.assertEqual(1, calculator.sum(first_number, second_number))
 
     # Subtract
 
     def test_subtraction_of_0_minus_1(self):
         first_number = 0
         second_number = 1
+        calculator = Calculator("comum")
 
-        self.assertEqual(-1, Calculator.subtract(self, first_number, second_number))
+        self.assertEqual(-1, calculator.subtract(first_number, second_number))
 
     def test_subtraction_of_negative_2_minus_negative_4(self):
         first_number = -2
         second_number = -4
+        calculator = Calculator("comum")
 
-        self.assertEqual(2, Calculator.subtract(self, first_number, second_number))
+        self.assertEqual(2, calculator.subtract(first_number, second_number))
 
     # Multiply
 
     def test_multiplication_of_0_times_5(self):
         first_number = 0
         second_number = 5
+        calculator = Calculator("comum")
 
-        self.assertEqual(0, Calculator.multiply(self, first_number, second_number))
+        self.assertEqual(0, calculator.multiply(first_number, second_number))
 
     def test_multiplication_of_2_times_one_quarter(self):
         first_number = 2
         second_number = 0.25
+        calculator = Calculator("comum")
 
-        self.assertEqual(0.5, Calculator.multiply(self, first_number, second_number))
+        self.assertEqual(0.5, calculator.multiply(first_number, second_number))
 
     # Divide
 
     def test_division_of_2_by_0(self):
         first_number = 2
         second_number = 0
+        calculator = Calculator("comum")
 
         self.assertEqual("Error! You can\'t divide a number by zero.",
-                         Calculator.divide(self, first_number, second_number))
+                         calculator.divide(first_number, second_number))
 
     def test_division_of_2_by_one_quarter(self):
         first_number = 2
         second_number = 0.25
+        calculator = Calculator("comum")
 
-        self.assertEqual(8, Calculator.divide(self, first_number, second_number))
+        self.assertEqual(8, calculator.divide(first_number, second_number))
 
     # Power
 
