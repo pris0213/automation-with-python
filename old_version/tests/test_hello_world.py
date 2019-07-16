@@ -1,5 +1,5 @@
 import unittest
-from hello_world import HelloWorld
+from old_version.hello_world import HelloWorld
 import io
 import sys
 

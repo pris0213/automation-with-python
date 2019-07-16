@@ -1,5 +1,5 @@
 import math
-from calculator import Calculator
+from old_version.calculator import Calculator
 
 class ScientificCalculator(Calculator):
 
