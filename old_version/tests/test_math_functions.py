@@ -1,5 +1,5 @@
 import unittest
-import math_functions
+from old_version import math_functions
 import math
 
 class known_values(unittest.TestCase):

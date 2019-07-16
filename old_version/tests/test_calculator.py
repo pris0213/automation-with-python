@@ -1,7 +1,7 @@
 import unittest
 
-from scientific_calculator import ScientificCalculator
-from calculator import Calculator
+from old_version.scientific_calculator import ScientificCalculator
+from old_version.calculator import Calculator
 # import Calculator
 
 
